@@ -4,6 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moja prva HTML strana</title>
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        </style>
 </head>
 <body>
     <h1>Ovo je sajt III-3 2025 godina</h1>
@@ -12,10 +29,10 @@
     <a href="https://www.w3schools.com/">Visit W3Schools.com!</a> 
     <br>
     <a href="https://look.in.rs" target="_blank">Otidji na look.in.rs</a>
-    <img src="jpg/mace1.jpeg" alt="slika maceta" style="width: 300px; height: 300px;">
-    <img src="jpg/pas1.jpg" alt="slika psa" style="width: 300px; height: 300px;">
+    <img src="img/mace1.jpeg" alt="slika maceta" style="width: 300px; height: 300px;">
+    <img src="img/pas1.jpg" alt="slika psa" style="width: 300px; height: 300px;">
     <a href="https://gvb.edu.rs" target="_blank">
-        <img src="jpg/gvblogo.jpg" alt="GVB logo" style="width:128px;height:128px;">
+        <img src="img/gvblogo.jpg" alt="GVB logo" style="width:128px;height:128px;">
         </a> 
 
     <p>Ovo je lekcija o nabrajanjima</p>
@@ -25,35 +42,22 @@
         <li>Mleko</li>
         <li>Topla čokolada</li>
     </ul> 
-    <ul style="list-style-type:circle;">
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-    </ul> 
-    <ul style="list-style-type:square;">
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-      </ul> 
-    <ol type="A">
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-    </ol>
-    <ol type="a">
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-    </ol>
-    <ol type="I">
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-    </ol>
-    <ol type="i">
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-    </ol>
+    <table>
+        <tr>
+          <th>Prezime</th>
+          <th>Ime</th>
+          <th>Godina rođenja</th>
+        </tr>
+        <tr>
+          <td>Petrović</td>
+          <td>Petar</td>
+          <td>2008</td>
+        </tr>
+        <tr>
+          <td>Marković</td>
+          <td>Marko</td>
+          <td>2007</td>
+        </tr>
+      </table> 
 </body>
 </html>
