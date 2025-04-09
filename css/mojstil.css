@@ -1,1 +1,47 @@
+h1 
+{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+h2 
+{
+    background-color: rgb(5, 98, 97);
+    color: rgb(2, 29, 52);
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
 
+  p 
+  {
+    background-color: brown;
+    color: white;
+    padding: 20px;
+  }
+  .prvi {
+    background-color: black;
+    color: aqua;
+    padding: 40px;
+    margin: 50px;
+    text-align: center;
+    font-size: 2em;
+  }
+  .drugi {
+    background-color: rgb(1, 127, 22);
+    color: rgb(25, 3, 73);
+    padding: 10px;
+    margin: 100px;
+    text-align: right;
+  }
