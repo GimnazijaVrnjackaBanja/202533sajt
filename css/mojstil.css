@@ -1,3 +1,7 @@
+body
+{
+  background-color: #6a5acd;
+}
 h1 
 {
     background-color: blueviolet;
@@ -8,7 +12,8 @@ h2
     background-color: rgb(5, 98, 97);
     color: rgb(2, 29, 52);
 }
-table {
+table 
+  {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
@@ -44,4 +49,11 @@ table {
     padding: 10px;
     margin: 100px;
     text-align: right;
+  }
+  #treci{
+    background-color: rgb(236, 246, 35);
+    color: rgb(11, 4, 26);
+    padding: 10px;
+    margin: 100px;
+    text-align: left;
   }
